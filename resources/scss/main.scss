@@ -1,0 +1,133 @@
+@import "vars";
+
+#kkwpcf-wrap {
+
+  h1.kkwpcf-heading {
+    font-size: 2rem;
+  }
+
+  #kkcfSaveOrderNotice {
+    display: none;
+  }
+
+  .main-box {
+    h2 {
+      display: block;
+      background-color: #00a9d2;
+      color: #ffffff;
+      font-size: 1.2rem;
+      @extend %cf;
+
+      span {
+        display: block;
+        width: 90%;
+        float: left;
+      }
+
+      span.save-order {
+        display: block;
+        width: 30px;
+        float: right;
+        -webkit-background-size: contain !important;
+        background-size: contain !important;
+        cursor: pointer;
+        @include transition(all, 200);
+
+        &:after {
+          padding-top: 100%;
+          display: block;
+          content: '';
+        }
+
+        &:hover {
+          background-image: url(../img/save-order-hover.png) !important;
+          @include transition(all, 200);
+        }
+      }
+    }
+
+    form.kkwpcf-form-fields {
+      @extend %cf;
+
+      .form-group {
+        display: block;
+        width: 100%;
+        height: auto;
+        float: left;
+      }
+
+      .form-field-group {
+        display: block;
+        margin: 10px 0 0 0;
+        padding: 10px;
+        background-color: #f8f8f8;
+        -webkit-box-shadow: 0 1px 0 0 #e6e6e6;
+        box-shadow: 0 1px 0 0 #e6e6e6;
+        @extend %cf;
+
+        h4 {
+          display: block;
+          width: 100%;
+          height: auto;
+          margin: 0 0 10px 0;
+          float: left;
+          font-size: 1rem;
+        }
+
+        .input-field {
+          display: block;
+          width: 25%;
+          height: auto;
+          padding: 0 5px;
+          float: left;
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+
+          label {
+            display: block;
+            font-weight: 500;
+          }
+
+          input {
+            display: block;
+            width: 100%;
+            height: auto;
+            margin: 7px 0 0 0;
+          }
+        }
+      }
+
+      input[type="submit"] {
+        display: block;
+        margin: 15px 0 0 0;
+        float: right;
+        padding: 5px 12px;
+        font-size: 1rem;
+        background-color: #00a9d2;
+        box-shadow: none;
+        border: 0;
+        border-radius: 0;
+        text-shadow: none;
+        -webkit-box-sizing: content-box;
+        -moz-box-sizing: content-box;
+        box-sizing: content-box;
+        @include transition(all, 200);
+
+        &:hover {
+          background-color: #008caf;
+          @include transition(all, 200);
+        }
+      }
+    }
+  }
+
+  .side-box {
+    h2 {
+      display: block;
+      background-color: #4fc651;
+      color: #ffffff;
+      font-size: 1.2rem;
+    }
+  }
+}

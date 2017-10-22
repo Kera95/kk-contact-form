@@ -1,0 +1,21 @@
+// Implicit variables
+%cf:before,
+%cf:after {
+  content: "";
+  display: table;
+}
+%cf:after {
+  clear: both;
+}
+%cf {
+  zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+// Mixins
+@mixin transition($option, $duration) {
+  -webkit-transition: $option $duration+ms ease-in-out;
+  -moz-transition: $option $duration+ms ease-in-out;
+  -ms-transition: $option $duration+ms ease-in-out;
+  -o-transition: $option $duration+ms ease-in-out;
+  transition: $option $duration+ms ease-in-out;
+}

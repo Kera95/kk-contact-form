@@ -1,0 +1,119 @@
+#kkwpcf-wrap .main-box h2:before, #kkwpcf-wrap .main-box form.kkwpcf-form-fields:before, #kkwpcf-wrap .main-box form.kkwpcf-form-fields .form-field-group:before,
+#kkwpcf-wrap .main-box h2:after,
+#kkwpcf-wrap .main-box form.kkwpcf-form-fields:after,
+#kkwpcf-wrap .main-box form.kkwpcf-form-fields .form-field-group:after {
+  content: "";
+  display: table; }
+
+#kkwpcf-wrap .main-box h2:after, #kkwpcf-wrap .main-box form.kkwpcf-form-fields:after, #kkwpcf-wrap .main-box form.kkwpcf-form-fields .form-field-group:after {
+  clear: both; }
+
+#kkwpcf-wrap .main-box h2, #kkwpcf-wrap .main-box form.kkwpcf-form-fields, #kkwpcf-wrap .main-box form.kkwpcf-form-fields .form-field-group {
+  zoom: 1;
+  /* For IE 6/7 (trigger hasLayout) */ }
+
+#kkwpcf-wrap h1.kkwpcf-heading {
+  font-size: 2rem; }
+#kkwpcf-wrap #kkcfSaveOrderNotice {
+  display: none; }
+#kkwpcf-wrap .main-box h2 {
+  display: block;
+  background-color: #00a9d2;
+  color: #ffffff;
+  font-size: 1.2rem; }
+  #kkwpcf-wrap .main-box h2 span {
+    display: block;
+    width: 90%;
+    float: left; }
+  #kkwpcf-wrap .main-box h2 span.save-order {
+    display: block;
+    width: 30px;
+    float: right;
+    -webkit-background-size: contain !important;
+    background-size: contain !important;
+    cursor: pointer;
+    -webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    -ms-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out; }
+    #kkwpcf-wrap .main-box h2 span.save-order:after {
+      padding-top: 100%;
+      display: block;
+      content: ''; }
+    #kkwpcf-wrap .main-box h2 span.save-order:hover {
+      background-image: url(../img/save-order-hover.png) !important;
+      -webkit-transition: all 200ms ease-in-out;
+      -moz-transition: all 200ms ease-in-out;
+      -ms-transition: all 200ms ease-in-out;
+      -o-transition: all 200ms ease-in-out;
+      transition: all 200ms ease-in-out; }
+#kkwpcf-wrap .main-box form.kkwpcf-form-fields .form-group {
+  display: block;
+  width: 100%;
+  height: auto;
+  float: left; }
+#kkwpcf-wrap .main-box form.kkwpcf-form-fields .form-field-group {
+  display: block;
+  margin: 10px 0 0 0;
+  padding: 10px;
+  background-color: #f8f8f8;
+  -webkit-box-shadow: 0 1px 0 0 #e6e6e6;
+  box-shadow: 0 1px 0 0 #e6e6e6; }
+  #kkwpcf-wrap .main-box form.kkwpcf-form-fields .form-field-group h4 {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 0 10px 0;
+    float: left;
+    font-size: 1rem; }
+  #kkwpcf-wrap .main-box form.kkwpcf-form-fields .form-field-group .input-field {
+    display: block;
+    width: 25%;
+    height: auto;
+    padding: 0 5px;
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+    #kkwpcf-wrap .main-box form.kkwpcf-form-fields .form-field-group .input-field label {
+      display: block;
+      font-weight: 500; }
+    #kkwpcf-wrap .main-box form.kkwpcf-form-fields .form-field-group .input-field input {
+      display: block;
+      width: 100%;
+      height: auto;
+      margin: 7px 0 0 0; }
+#kkwpcf-wrap .main-box form.kkwpcf-form-fields input[type="submit"] {
+  display: block;
+  margin: 15px 0 0 0;
+  float: right;
+  padding: 5px 12px;
+  font-size: 1rem;
+  background-color: #00a9d2;
+  box-shadow: none;
+  border: 0;
+  border-radius: 0;
+  text-shadow: none;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  -webkit-transition: all 200ms ease-in-out;
+  -moz-transition: all 200ms ease-in-out;
+  -ms-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out; }
+  #kkwpcf-wrap .main-box form.kkwpcf-form-fields input[type="submit"]:hover {
+    background-color: #008caf;
+    -webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    -ms-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out; }
+#kkwpcf-wrap .side-box h2 {
+  display: block;
+  background-color: #4fc651;
+  color: #ffffff;
+  font-size: 1.2rem; }
+
+/*# sourceMappingURL=main.css.map */
